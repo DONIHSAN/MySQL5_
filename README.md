@@ -42,7 +42,9 @@ SELECT * FROM Pegawai;
 
 **1. Tampilkan pegawai yang gajinya bukan 2.000.000 dan 1.250.000 !**
 
-`SELECT * FROM Pegawai WHERE gaji NOT IN (2000000, 1250000);`
+```
+SELECT * FROM Pegawai WHERE gaji NOT IN (2000000, 1250000);
+```
 
 ***Output :***
 
@@ -50,7 +52,9 @@ SELECT * FROM Pegawai;
 
 **2. Tampilkan pegawai yang tunjangannya NULL!**
 
-`SELECT * FROM Pegawai WHERE tunjangan IS NULL;`
+```
+SELECT * FROM Pegawai WHERE tunjangan IS NULL;
+```
 
 ***Output :***
 
@@ -58,7 +62,9 @@ SELECT * FROM Pegawai;
 
 **3. Tampilkan pegawai yang tunjangannya tidak NULL!**
 
-`SELECT * FROM Pegawai WHERE tunjangan IS NOT NULL;`
+```
+SELECT * FROM Pegawai WHERE tunjangan IS NOT NULL;
+```
 
 ***Output :***
 
@@ -66,7 +72,9 @@ SELECT * FROM Pegawai;
 
 **4. Tampilkan/hitung jumlah baris/record tabel pegawai!**
 
-`SELECT COUNT(*) AS jumlah_pegawai FROM Pegawai;`
+```
+SELECT COUNT(*) AS jumlah_pegawai FROM Pegawai;
+```
 
 ***Output :***
 
@@ -74,7 +82,9 @@ SELECT * FROM Pegawai;
 
 **5. Tampilkan/hitung jumlah total gaji di tabel pegawai!**
 
-`SELECT SUM(gaji) AS total_gaji FROM Pegawai;`
+```
+SELECT SUM(gaji) AS total_gaji FROM Pegawai;
+```
 
 ***Output :***
 
@@ -82,7 +92,9 @@ SELECT * FROM Pegawai;
 
 **6. Tampilkan/hitung rata-rata gaji pegawai!**
 
-`SELECT AVG(gaji) AS rata_rata_gaji FROM Pegawai;`
+```
+SELECT AVG(gaji) AS rata_rata_gaji FROM Pegawai;
+```
 
 ***Output :***
 
@@ -90,7 +102,9 @@ SELECT * FROM Pegawai;
 
 **7. Tampilkan gaji terkecil!**
 
-`SELECT MIN(gaji) AS gaji_terkecil FROM Pegawai;`
+```
+SELECT MIN(gaji) AS gaji_terkecil FROM Pegawai;
+```
 
 ***Output :***
 
@@ -98,7 +112,9 @@ SELECT * FROM Pegawai;
 
 **8. Tampilkan gaji terbesar!**
 
-`SELECT MAX(gaji) AS gaji_terbesar FROM Pegawai;`
+```
+SELECT MAX(gaji) AS gaji_terbesar FROM Pegawai;
+```
 
 ***Output :***
 
@@ -140,7 +156,9 @@ SELECT * from Animals;
 
 **1. Tampilkan jumlah hewan yang dimiliki setiap owner.**
 
-`SELECT owner, COUNT(*) AS jumlah_hewan FROM Animals GROUP BY owner;`
+```
+SELECT owner, COUNT(*) AS jumlah_hewan FROM Animals GROUP BY owner;
+```
 
 ***Output :***
 
@@ -148,7 +166,9 @@ SELECT * from Animals;
 
 **2. Tampilkan jumlah hewan berdasarkan spesies**
 
-`SELECT species, COUNT(*) AS jumlah_hewan FROM Animals GROUP BY species;`
+```
+SELECT species, COUNT(*) AS jumlah_hewan FROM Animals GROUP BY species;
+```
 
 ***Output :***
 
@@ -156,7 +176,9 @@ SELECT * from Animals;
 
 **3. Tampilkan jumlah hewan berdasarkan jenis kelamin**
 
-`SELECT sex, COUNT(*) AS jumlah_hewan FROM Animals GROUP BY sex;`
+```
+SELECT sex, COUNT(*) AS jumlah_hewan FROM Animals GROUP BY sex;
+```
 
 ***Output :***
 
@@ -164,7 +186,9 @@ SELECT * from Animals;
 
 **4. Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin**
 
-`SELECT species, sex, COUNT(*) AS jumlah_hewan FROM Animals GROUP BY species,`
+```
+SELECT species, sex, COUNT(*) AS jumlah_hewan FROM Animals GROUP BY species,
+```
 
 ***Output :***
 
@@ -172,7 +196,9 @@ SELECT * from Animals;
 
 **5. Tampilkan jumlah hewan berdasarkan spesis (cat dan dog saja) dan jenis kelamin**
 
-`SELECT species, sex, COUNT(*) AS jumlah_hewan FROM Animals WHERE species`
+```
+SELECT species, sex, COUNT(*) AS jumlah_hewan FROM Animals WHERE species
+```
 
 ***Output :***
 
@@ -180,7 +206,9 @@ SELECT * from Animals;
 
 **6. Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja**
 
-`SELECT sex, COUNT(*) AS jumlah_hewan FROM Animals WHERE sex IS NOT NULL `
+```
+SELECT sex, COUNT(*) AS jumlah_hewan FROM Animals WHERE sex IS NOT NULL
+```
 
 ***Output :***
 
@@ -254,7 +282,7 @@ Terdapat beberapa ***Query Filter*** yang ditemukan pada tugas praktikum 4 :
 - Operator `IN` digunakan untuk memfilter data yang terdapat pada list IN
 - Operator `NOT IN` digunakan untuk memfilter data yang tidak terdapat pada list IN
 - Operator `IS NULL` digunakan untuk menampilkan data dengan nilai data NULL
-- Operator IS NOT NULL digunakan untuk menampilkan data dengan nilai data tidak NULL
+- Operator `IS NOT NULL` digunakan untuk menampilkan data dengan nilai data tidak NULL
 - `COUNT` adalah perintah yang digunakan untuk menghitung jumlah baris suatu kolom pada tabel.
 - `SUM` adalah perintah yang digunakan untuk menghitung jumlah nilai suatu kolom pada tabel.
 - `AVG` adalah perintah yang digunakan untuk menghitung rata-rata dari nilai suatu kolom pada tabel.
