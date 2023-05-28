@@ -38,6 +38,8 @@ SELECT * FROM Pegawai;
 
 ![gambar_ss1](screenshot/ss1.png)
 
+## Tugas Praktikum
+
 **1. Tampilkan pegawai yang gajinya bukan 2.000.000 dan 1.250.000 !**
 
 `SELECT * FROM Pegawai WHERE gaji NOT IN (2000000, 1250000);`
@@ -174,7 +176,7 @@ SELECT * from Animals;
 
 ***Output***
 
-![gambar_ss15]
+![gambar_ss15](screenshot/ss15.png)
 
 **6. Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja**
 
@@ -182,7 +184,7 @@ SELECT * from Animals;
 
 ***Output***
 
-![gambar_ss16]
+![gambar_ss16](screenshot/ss16.png)
 
 ### Tulis semua perintah-perintah SQL percobaan di atas beserta outputnya!
 
