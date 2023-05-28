@@ -186,7 +186,7 @@ SELECT * from Animals;
 
 ![gambar_ss16](screenshot/ss16.png)
 
-### Tulis semua perintah-perintah SQL percobaan di atas beserta outputnya!
+## Tulis semua perintah-perintah SQL percobaan di atas beserta outputnya!
 
 ```
 CREATE DATABASE praktikum4;
@@ -247,7 +247,7 @@ SELECT species, sex, COUNT(*) AS jumlah_hewan FROM Animals WHERE species IN ('Ca
 SELECT sex, COUNT(*) AS jumlah_hewan FROM Animals WHERE sex IS NOT NULL GROUP BY sex;
 ```
 
-### Berikan Kesimpulan Anda !
+## Berikan Kesimpulan Anda !
 
 Terdapat beberapa ***Query Filter*** yang ditemukan pada tugas praktikum 4 :
 
@@ -262,5 +262,5 @@ Terdapat beberapa ***Query Filter*** yang ditemukan pada tugas praktikum 4 :
 - `MAX` adalah perintah yang digunakan untuk menampilkan nilai terbesar dari suatu kolom pada tabel.
 - Klausa `GROUP BY` berfungsi untuk mengelompokkan data berdasarkan field tertentu.
 
-### SELESAI <img align="center" alt="Ikhsan-Python" height="40" width="45" src="https://em-content.zobj.net/source/microsoft-teams/337/student_1f9d1-200d-1f393.png">
+### SELESAI <img align="center" alt="Ikhsan-Python" height="40" width="45" src="https://em-content.zobj.net/source/microsoft-teams/337/student_1f9d1-200d-1f393.png"> <img align="center" alt="Ikhsan-Python" height="40" width="45" src="https://em-content.zobj.net/thumbs/160/twitter/348/flag-indonesia_1f1ee-1f1e9.png">
 
