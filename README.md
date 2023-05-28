@@ -34,7 +34,7 @@ VALUES	('E001', 'Ferry', 'Gustiawan', 'ferry@yahoo.com', '07117059004', '2005-09
 SELECT * FROM Pegawai;
 ```
 
-***Output***
+***Output :***
 
 ![gambar_ss1](screenshot/ss1.png)
 
@@ -44,7 +44,7 @@ SELECT * FROM Pegawai;
 
 `SELECT * FROM Pegawai WHERE gaji NOT IN (2000000, 1250000);`
 
-***Output***
+***Output :***
 
 ![gambar_ss2](screenshot/ss2.png)
 
@@ -52,7 +52,7 @@ SELECT * FROM Pegawai;
 
 `SELECT * FROM Pegawai WHERE tunjangan IS NULL;`
 
-***Output***
+***Output :***
 
 ![gambar_ss3](screenshot/ss3.png)
 
@@ -60,7 +60,7 @@ SELECT * FROM Pegawai;
 
 `SELECT * FROM Pegawai WHERE tunjangan IS NOT NULL;`
 
-***Output***
+***Output :***
 
 ![gambar_ss4](screenshot/ss4.png)
 
@@ -68,7 +68,7 @@ SELECT * FROM Pegawai;
 
 `SELECT COUNT(*) AS jumlah_pegawai FROM Pegawai;`
 
-***Output***
+***Output :***
 
 ![gambar_ss5](screenshot/ss5.png)
 
@@ -76,7 +76,7 @@ SELECT * FROM Pegawai;
 
 `SELECT SUM(gaji) AS total_gaji FROM Pegawai;`
 
-***Output***
+***Output :***
 
 ![gambar_ss6](screenshot/ss6.png)
 
@@ -84,7 +84,7 @@ SELECT * FROM Pegawai;
 
 `SELECT AVG(gaji) AS rata_rata_gaji FROM Pegawai;`
 
-***Output***
+***Output :***
 
 ![gambar_ss7](screenshot/ss7.png)
 
@@ -92,7 +92,7 @@ SELECT * FROM Pegawai;
 
 `SELECT MIN(gaji) AS gaji_terkecil FROM Pegawai;`
 
-***Output***
+***Output :***
 
 ![gambar_ss8](screenshot/ss8.png)
 
@@ -100,7 +100,7 @@ SELECT * FROM Pegawai;
 
 `SELECT MAX(gaji) AS gaji_terbesar FROM Pegawai;`
 
-***Output***
+***Output :***
 
 ![gambar_ss9](screenshot/ss9.png)
 
@@ -132,7 +132,7 @@ VALUES ('p1', 'Puffball', 'Diane', 'Hamster', 'F'),
 SELECT * from Animals;
 ```
 
-***Output***
+***Output :***
 
 ![gambar_ss10](screenshot/ss10.png)
 
@@ -142,7 +142,7 @@ SELECT * from Animals;
 
 `SELECT owner, COUNT(*) AS jumlah_hewan FROM Animals GROUP BY owner;`
 
-***Output***
+***Output :***
 
 ![gambar_ss11](screenshot/ss11.png)
 
@@ -150,7 +150,7 @@ SELECT * from Animals;
 
 `SELECT species, COUNT(*) AS jumlah_hewan FROM Animals GROUP BY species;`
 
-***Output***
+***Output :***
 
 ![gambar_ss12](screenshot/ss12.png)
 
@@ -158,7 +158,7 @@ SELECT * from Animals;
 
 `SELECT sex, COUNT(*) AS jumlah_hewan FROM Animals GROUP BY sex;`
 
-***Output***
+***Output :***
 
 ![gambar_ss13](screenshot/ss13.png)
 
@@ -166,7 +166,7 @@ SELECT * from Animals;
 
 `SELECT species, sex, COUNT(*) AS jumlah_hewan FROM Animals GROUP BY species,`
 
-***Output***
+***Output :***
 
 ![gambar_ss14](screenshot/ss14.png)
 
@@ -174,7 +174,7 @@ SELECT * from Animals;
 
 `SELECT species, sex, COUNT(*) AS jumlah_hewan FROM Animals WHERE species`
 
-***Output***
+***Output :***
 
 ![gambar_ss15](screenshot/ss15.png)
 
@@ -182,7 +182,7 @@ SELECT * from Animals;
 
 `SELECT sex, COUNT(*) AS jumlah_hewan FROM Animals WHERE sex IS NOT NULL `
 
-***Output***
+***Output :***
 
 ![gambar_ss16](screenshot/ss16.png)
 
@@ -262,5 +262,5 @@ Terdapat beberapa ***Query Filter*** yang ditemukan pada tugas praktikum 4 :
 - `MAX` adalah perintah yang digunakan untuk menampilkan nilai terbesar dari suatu kolom pada tabel.
 - Klausa `GROUP BY` berfungsi untuk mengelompokkan data berdasarkan field tertentu.
 
-### SELESAI <img align="center" alt="Ikhsan-Python" height="40" width="45" src="https://em-content.zobj.net/source/microsoft-teams/337/student_1f9d1-200d-1f393.png"> <img align="center" alt="Ikhsan-Python" height="40" width="45" src="https://em-content.zobj.net/thumbs/160/twitter/348/flag-indonesia_1f1ee-1f1e9.png">
+## SELESAI <img align="center" alt="Ikhsan-Python" height="40" width="45" src="https://em-content.zobj.net/source/microsoft-teams/337/student_1f9d1-200d-1f393.png"> <img align="center" alt="Ikhsan-Python" height="40" width="45" src="https://em-content.zobj.net/thumbs/160/twitter/348/flag-indonesia_1f1ee-1f1e9.png">
 
